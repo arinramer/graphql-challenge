@@ -10,9 +10,9 @@ To list all the apps:
 
 ```
 {
-	apps {
+    apps {
       id
-	}
+    }
 }
 ```
 
@@ -20,9 +20,9 @@ To query a single app:
 
 ```
 {
-	app(id: "id-goes-here") {
+    app(id: "id-goes-here") {
       id
-	}
+    }
 }
 ```
 
@@ -30,10 +30,10 @@ To list all the stages:
 
 ```
 {
-	stages {
+    stages {
       id
       name
-	}
+    }
 }
 ```
 
@@ -41,10 +41,10 @@ To query a single stage:
 
 ```
 {
-	stage(id: "id-goes-here") {
+    stage(id: "id-goes-here") {
       id
       name
-	}
+    }
 }
 ```
 
@@ -52,10 +52,10 @@ To search the stages by name:
 
 ```
 {
-	stage(name: "name-goes-here") {
+    stage(name: "name-goes-here") {
       id
       name
-	}
+    }
 }
 ```
 
@@ -63,7 +63,7 @@ To list all of the events:
 
 ```
 {
-	events {
+    events {
       id
       appId
       stageId
@@ -131,7 +131,7 @@ To list all of the events in an app:
 
 ```
 {
-	app(id: "id-goes-here") {
+    app(id: "id-goes-here") {
       id
       events {
         id
@@ -143,7 +143,7 @@ To list all of the events in an app:
         startsAt
         endsAt
       }
-	}
+    }
 }
 ```
 
@@ -151,13 +151,13 @@ To list all of the stages in an app:
 
 ```
 {
-	app(id: "id-goes-here") {
+    app(id: "id-goes-here") {
       id
       stages {
         id
         name
       }
-	}
+    }
 }
 ```
 
@@ -179,10 +179,10 @@ To list the events in a stage:
 
 ```
 {
-	stage(id: "id-goes-here") {
+    stage(id: "id-goes-here") {
       id
       name
-	}
+    }
 }
 <<<<<<< HEAD
 ```
