@@ -184,7 +184,4 @@ To list the events in a stage:
       name
     }
 }
-<<<<<<< HEAD
 ```
-=======
->>>>>>> fa7a5db0137ee0eafd8f2d21abf1d7e2895f1251
