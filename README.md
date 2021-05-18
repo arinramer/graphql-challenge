@@ -8,11 +8,13 @@ Use the the following queries to access the data you want
 
 To list all the apps:
 
+```
 {
 	apps {
       id
 	}
 }
+```
 
 To query a single app:
 
