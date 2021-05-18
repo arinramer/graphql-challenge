@@ -8,49 +8,60 @@ Use the the following queries to access the data you want
 
 To list all the apps:
 
+```
 {
 	apps {
       id
 	}
 }
+```
 
 To query a single app:
 
+```
 {
 	app(id: "id-goes-here") {
       id
 	}
 }
+```
 
 To list all the stages:
 
+```
 {
 	stages {
       id
       name
 	}
 }
+```
 
 To query a single stage:
 
+```
 {
 	stage(id: "id-goes-here") {
       id
       name
 	}
 }
+```
 
 To search the stages by name:
 
+```
 {
 	stage(name: "name-goes-here") {
       id
       name
 	}
 }
+```
 
 To list all of the events:
 
+```
 {
 	events {
       id
@@ -63,9 +74,11 @@ To list all of the events:
       endsAt
    }
 }
+```
 
 To query a single event:
 
+```
 {
     event(id: "id-goes-here") {
       id
@@ -78,9 +91,11 @@ To query a single event:
       endsAt
     }
 }
+```
 
 To search the events by name:
 
+```
 {
     event(name: "name-goes-here") {
       id
@@ -93,9 +108,11 @@ To search the events by name:
       endsAt
     }
 }
+```
 
 To query the events that occur between two dates:
 
+```
 {
     events(startsAt: integer, endsAt: integer) {
       id
@@ -108,9 +125,11 @@ To query the events that occur between two dates:
       endsAt
     }
 }
+```
 
 To list all of the events in an app:
 
+```
 {
 	app(id: "id-goes-here") {
       id
@@ -126,9 +145,11 @@ To list all of the events in an app:
       }
 	}
 }
+```
 
 To list all of the stages in an app:
 
+```
 {
 	app(id: "id-goes-here") {
       id
@@ -138,9 +159,11 @@ To list all of the stages in an app:
       }
 	}
 }
+```
 
 To get the stage in an event:
 
+```
 {
     event(id: "id-goes-here") {
       name
@@ -150,12 +173,15 @@ To get the stage in an event:
       }
     }
 }
+```
 
 To list the events in a stage:
 
+```
 {
 	stage(id: "id-goes-here") {
       id
       name
 	}
 }
+```
