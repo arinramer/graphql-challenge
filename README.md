@@ -1,6 +1,6 @@
 How to use:
 
-*First time only*, type "npm i" in the console to install the dependencies  
+*First time only*, type "npm i" in the terminal to install the dependencies  
 Type "npm run dev" to start the server  
 In your browser, navigate to http://localhost:5000/graphql to access the graphiql interface
 
