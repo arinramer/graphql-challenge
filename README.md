@@ -12,6 +12,7 @@ To list all the apps:
 {
     apps {
       id
+      name
     }
 }
 ```
@@ -22,6 +23,7 @@ To query a single app:
 {
     app(id: "id-goes-here") {
       id
+      name
     }
 }
 ```
@@ -175,13 +177,16 @@ To get the stage in an event:
 }
 ```
 
-To list the events in a stage:
+To list the events at a stage:
 
 ```
 {
     stage(id: "id-goes-here") {
       id
       name
+      events {
+        name
+      }
     }
 }
 ```
