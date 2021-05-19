@@ -1,7 +1,7 @@
 How to use:
 
-*first time only* Type "npm i" in the console to install the dependencies
-Type "npm run dev" to start the server
+*First time only*, type "npm i" in the console to install the dependencies  
+Type "npm run dev" to start the server  
 In your browser, navigate to http://localhost:5000/graphql to access the graphiql interface
 
 Use the the following queries to access the data you want
